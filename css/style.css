@@ -1,0 +1,23 @@
+@media (max-width:991px) {
+    body {
+        background-image: url(../obrazy/man-1.jpg);
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width:992px) and (max-width:1170px) {
+    body {
+        background-image: url(../obrazy/man-2.jpg);
+        background-size: 100% 70%;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-image: 
+    }
+}
+    @media (min-width:1171px) {
+        body {
+            background-image: url(../obrazy/man-1.jpg);
+            background-size: auto;
+            background-repeat: no-repeat;
+        }
+    }
