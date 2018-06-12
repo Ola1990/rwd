@@ -12,10 +12,12 @@ body {
         background-size: 100% 50%;
         background-repeat: no-repeat;
     }
-    header {
+      header h1 {
+        font-family: "Verdana", sans-serif;
         position: absolute;
-        transform: translateX(150%);
         top: 50%;
+        left: 30%;
+        text-align: center;
     }
 }
 @media (min-width:992px) and (max-width:1170px) {
@@ -24,8 +26,14 @@ body {
         height: 100vh;
         background-image: url(../obrazy/man-2.jpg);
         background-size: 100% 70%;
-        background-repeat: no-repeat;
-        
+        background-repeat: no-repeat;  
+    }
+    header {
+        font-family: "Verdana", sans-serif;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        color: #fff;
     }
 }
     @media (min-width:1171px) {
@@ -34,7 +42,13 @@ body {
             height: 100vh;
             background-image: url(../obrazy/man-1.jpg);
             background-repeat: no-repeat;
-            background-size: contain;
-            overflow: hidden;
+            background-size: 100% 100%;
         }
+        header {
+        font-family: "Verdana", sans-serif;
+        position: absolute;
+        bottom: 300px;
+        left: 50px;
+        color: #fff;
     }
+}
