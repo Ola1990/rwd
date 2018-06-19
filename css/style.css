@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+body {
+    margin: 0;
+}
 
 header {
     width: 100%;
@@ -21,9 +24,9 @@ header h1 {
         background-repeat: no-repeat;
     }
       header h1 {
-        top: 100%;
-        transform: translate(150% 300%);
-        left: 20%;
+        top: 120%;
+        transform: translate(-50%, -50%);
+        left: 50%;
         text-align: center;
     }
 }
